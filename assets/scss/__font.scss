@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Unbounded';
-    src: url(../font/Unbounded-Regular.ttf) format("truetype");
+    src: url(../font/Unbounded-Regular.ttf) format("truetype"),
+         url(../font/Unbounded-Regular.woff2) format('woff2');
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
@@ -8,49 +9,56 @@
 
 @font-face {
     font-family: 'Unbounded';
-    src: url(../font/Unbounded-Medium.ttf) format("truetype");
+    src: url(../font/Unbounded-Medium.ttf) format("truetype"),
+         url(../font/Unbounded-Medium.woff2) format('woff2');
     font-style: normal;
     font-weight: 500;
     font-display: fallback;
 }
 @font-face {
     font-family: 'Unbounded';
-    src: url(../font/Unbounded-SemiBold.ttf) format("truetype");
+    src: url(../font/Unbounded-SemiBold.ttf) format("truetype"),
+         url(../font/Unbounded-SemiBold.woff2) format('woff2');
     font-style: normal;
     font-weight: 600;
     font-display: fallback;
 }
 @font-face {
     font-family: 'Unbounded';
-    src: url(../font/Unbounded-Bold.ttf) format("truetype");
+    src: url(../font/Unbounded-Bold.ttf) format("truetype"),
+         url(../font/Unbounded-Bold.woff2) format('woff2');
     font-style: normal;
     font-weight: 700;
     font-display: fallback;
 }
 @font-face {
     font-family: 'Unbounded';
-    src: url(../font/Unbounded-Black.ttf) format("truetype");
+    src: url(../font/Unbounded-Black.ttf) format("truetype"),
+         url(../font/Unbounded-Black.woff2) format('woff2');
     font-style: normal;
     font-weight: 900;
     font-display: fallback;
 }
 @font-face {
     font-family: 'Pretendard';
-    src: url(../font/Pretendard-Regular.ttf) format("truetype");
+    src: url(../font/Pretendard-Regular.ttf) format("truetype"),
+         url(../font/Pretendard-Regular.woff2) format('woff2');
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
 }
 @font-face {
     font-family: 'Pretendard';
-    src: url(../font/Pretendard-Medium.ttf) format("truetype");
+    src: url(../font/Pretendard-Medium.ttf) format("truetype"),
+         url(../font/Pretendard-Medium.woff2) format('woff2');
     font-style: normal;
     font-weight: 500;
     font-display: fallback;
 }
 @font-face {
     font-family: 'Pretendard';
-    src: url(../font/Pretendard-SemiBold.ttf) format("truetype");
+    src: url(../font/Pretendard-SemiBold.ttf) format("truetype"),
+         url(../font/Pretendard-SemiBold.ttf) format('woff2');
     font-style: normal;
     font-weight: 700;
     font-display: fallback;
