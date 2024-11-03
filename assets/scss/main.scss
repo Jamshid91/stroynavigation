@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Unbounded", serif;
+  font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-feature-settings: "onum" off, "pnum" off, "lnum" on, "tnum" on;
   -moz-font-feature-settings: "onum=0, pnum=0, lnum=1, tnum=1";       /* Firefox */
@@ -38,7 +38,7 @@ body {
   a {
     text-decoration: none;
     color: inherit;
-    font-family: "Unbounded", serif;
+    font-family: "Unbounded", sans-serif;
   }
   
   a:hover {
@@ -56,13 +56,13 @@ body {
     border: none;
     padding: 0;
     cursor: pointer;
-    font-family: "Pretendard",serif;
+    font-family: "Pretendard", sans-serif;
   }
   
   input, textarea, select, button {
     border: none;
     outline: none;
-    font-family: "Pretendard",serif;
+    font-family: "Pretendard", sans-serif;
   }
   
 
@@ -499,7 +499,7 @@ body {
         margin-bottom: 40px;
       }
       &-item {
-        font-family: "Pretendard",serif;
+        font-family: "Pretendard", sans-serif;
         font-size: 24px;
         line-height: 33px;
         font-weight: 400;
@@ -545,7 +545,7 @@ body {
           opacity: 1;
         }
         .story-item-text {
-          font-family: "Pretendard",serif;
+          font-family: "Pretendard", sans-serif;
           font-size: 20px;
           line-height: 26px;
           font-weight: 600;
@@ -738,7 +738,7 @@ body {
         }
         .item-info {
           margin-top: 20px;
-          font-family: "Pretendard",serif;
+          font-family: "Pretendard", sans-serif;
           font-size: 24px;
           line-height: 33px;
           font-weight: 400;
@@ -848,7 +848,7 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      font-family: "Pretendard",serif;
+      font-family: "Pretendard", sans-serif;
       font-size: 24px;
       line-height: 26px;
       font-weight: 600;
@@ -939,7 +939,7 @@ body {
           .info-data {
             margin-top: 20px;
             color: #CFCFCF;
-            font-family: "Pretendard",serif;
+            font-family: "Pretendard", sans-serif;
             font-size: 20px;
             line-height: 26px;
             font-weight: 600;
@@ -1082,7 +1082,7 @@ body {
       &-info {
         max-width: 924px;
         .info-text {
-          font-family: "Pretendard",serif;
+          font-family: "Pretendard", sans-serif;
           font-size: 24px;
           line-height: 33px;
           font-weight: 400;
@@ -1134,7 +1134,7 @@ body {
           letter-spacing: -1px;
         }
         .name {
-          font-family: "Pretendard",serif;
+          font-family: "Pretendard", sans-serif;
           font-size: 24px;
           line-height: 28px;
           font-weight: 500;
@@ -1177,7 +1177,7 @@ body {
                 font-weight: 700;
               } 
               span {
-                font-family: "Pretendard",serif;
+                font-family: "Pretendard", sans-serif;
                 font-size: 14px;
                 line-height: 18px;
                 font-weight: 600;
@@ -1258,14 +1258,14 @@ body {
       margin: 60px 0;
     }
     &-text {
-      font-family: "Pretendard",serif;
+      font-family: "Pretendard", sans-serif;
       font-size: 16px;
       line-height: 20px;
       font-weight: 600;
       color: #CFCFCF;
     }
     &-sub {
-      font-family: "Pretendard",serif;
+      font-family: "Pretendard", sans-serif;
       font-size: 14px;
       line-height: 18px;
       font-weight: 600;
@@ -1273,7 +1273,7 @@ body {
       width: 100%;
       margin-top: 60px;
       a {
-        font-family: "Pretendard",serif;
+        font-family: "Pretendard", sans-serif;
         font-size: 14px;
         line-height: 18px;
         font-weight: 600;

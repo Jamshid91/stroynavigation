@@ -67,7 +67,7 @@ html {
 }
 
 body {
-  font-family: "Unbounded", serif;
+  font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-feature-settings: "onum" off, "pnum" off, "lnum" on, "tnum" on;
   -moz-font-feature-settings: "onum=0, pnum=0, lnum=1, tnum=1"; /* Firefox */
@@ -93,7 +93,7 @@ ul, ol {
 a {
   text-decoration: none;
   color: inherit;
-  font-family: "Unbounded", serif;
+  font-family: "Unbounded", sans-serif;
 }
 
 a:hover {
@@ -111,13 +111,13 @@ button {
   border: none;
   padding: 0;
   cursor: pointer;
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
 }
 
 input, textarea, select, button {
   border: none;
   outline: none;
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
 }
 
 .text-center {
@@ -540,7 +540,7 @@ main .block2-title {
   margin-bottom: 40px;
 }
 main .block2-item {
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 24px;
   line-height: 33px;
   font-weight: 400;
@@ -586,7 +586,7 @@ main .story .swiper-story-text .swiper-slide-active {
   opacity: 1;
 }
 main .story .swiper-story-text .story-item-text {
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 20px;
   line-height: 26px;
   font-weight: 600;
@@ -776,7 +776,7 @@ main .faq-item .item-head h3 {
 }
 main .faq-item .item-info {
   margin-top: 20px;
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 24px;
   line-height: 33px;
   font-weight: 400;
@@ -879,7 +879,7 @@ main .link-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 24px;
   line-height: 26px;
   font-weight: 600;
@@ -970,7 +970,7 @@ main .blog-item .item-info .info-link:hover {
 main .blog-item .item-info .info-data {
   margin-top: 20px;
   color: #CFCFCF;
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 20px;
   line-height: 26px;
   font-weight: 600;
@@ -1108,7 +1108,7 @@ main .article-info {
   max-width: 924px;
 }
 main .article-info .info-text {
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 24px;
   line-height: 33px;
   font-weight: 400;
@@ -1158,7 +1158,7 @@ main .profile-page .profile-user .nick-name {
   letter-spacing: -1px;
 }
 main .profile-page .profile-user .name {
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: 500;
@@ -1203,7 +1203,7 @@ main .profile-page .profile-user .user-box .profile-info .info-item p {
   font-weight: 700;
 }
 main .profile-page .profile-user .user-box .profile-info .info-item span {
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 600;
@@ -1279,14 +1279,14 @@ main .profile-page .profile-tab .tab-item .tab-img {
   margin: 60px 0;
 }
 .footer-text {
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 600;
   color: #CFCFCF;
 }
 .footer-sub {
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 600;
@@ -1295,7 +1295,7 @@ main .profile-page .profile-tab .tab-item .tab-img {
   margin-top: 60px;
 }
 .footer-sub a {
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 600;
