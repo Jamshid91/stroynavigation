@@ -1,4 +1,5 @@
 @import './_font';
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 
 *, *::before, *::after {
   margin: 0;
@@ -12,6 +13,7 @@ html {
 
 body {
   font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
   font-feature-settings: "onum" off, "pnum" off, "lnum" on, "tnum" on;
   -moz-font-feature-settings: "onum=0, pnum=0, lnum=1, tnum=1";       /* Firefox */
   -webkit-font-feature-settings: "onum" off, "pnum" off, "lnum" on, "tnum" on;  /* WebKit */
