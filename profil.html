@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-nav">
+            <div class="container d-flex justify-between align-center">
+                <a href="./index.html" class="logo">
+                    <img src="assets/img/svg/logo.svg" alt="">
+                </a>
+                <ul class="nav d-flex">
+                    <li><a href="./stories.html">Истории</a></li>
+                    <li><a href="./blog.html">Блог</a></li>
+                    <li><a href="#">Возможности</a></li>
+                    <li><a href="#">О проекте</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <div class="d-flex align-center">
+                    <div class="searchBtn">
+                        <img src="assets/img/svg/search.svg" alt="">
+                    </div>
+                    <div class="header-lang">
+                        <div class="lang-active">ru</div>
+                        <ul class="lang-list">
+                            <li class="active"><a href="#">ru</a></li>
+                            <li><a href="#">en</a></li>
+                            <li><a href="#">de</a></li>
+                            <li><a href="#">fr</a></li>
+                            <li><a href="#">it</a></li>   
+                        </ul>
+                    </div>
+                    <div class="menu-burger">
+                        <div class="menu-burger-list" id="burger_list1"></div>
+                        <div class="menu-burger-list" id="burger_list2"></div>
+                        <div class="menu-burger-list" id="burger_list3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <ul class="nav d-flex justify-center flex-column">
+                <li><a href="./stories.html">Истории</a></li>
+                    <li><a href="./blog.html">Блог</a></li>
+                <li><a href="#">Возможности</a></li>
+                <li><a href="#">О проекте</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <ul class="lang-list">
+                <li class="active"><a href="#">ru</a></li>
+                <li><a href="#">en</a></li>
+                <li><a href="#">de</a></li>
+                <li><a href="#">fr</a></li>
+                <li><a href="#">it</a></li>   
+            </ul>
+        </div>
+    </header>
+
+    <div class="loader hidden">
+        <img src="assets/img/svg/loader.svg" alt="">
+        <p class="loader-text">Ищем профиль...</p>
+    </div>
+
+    <main>
+        <div class="search-box">
+            <div class="container">
+                <div class="search-close">
+                    <img src="assets/img/svg/plus.svg" alt="">
+                </div>
+                <img src="assets/img/png/search-head.png" alt="" class="search-png">
+                <h2 class="search-title">Смотреть Instagram <br> анонимно</h2>
+                    <div class="search">
+                        <input type="text" class="search-inp" placeholder="Имя пользователя или ссылка на профиль">
+                        <button class="search-btn">
+                            <span>Найти</span>
+                            <img src="assets/img/svg/search.svg" alt="">
+                        </button>
+                    </div>
+            </div>
+        </div>
+
+        <div class="profile-page">
+            <div class="container">
+                <div class="profile-user">
+                    <p class="nick-name">Ronaldo</p>
+                    <p class="name">Cristiano Ronaldo</p>
+                    <div class="user-box">
+                        <div class="user-photo">
+                            <img src="assets/img/png/user.png" alt="">
+                        </div>
+                        <div class="profile-info d-flex">
+                            <div class="info-item">
+                                <p>528</p>
+                                <span>публикации</span>
+                            </div>
+                            <div class="info-item">
+                                <p>1,2 млн</p>
+                                <span>подписчики</span>
+                            </div>
+                            <div class="info-item">
+                                <p>3 648</p>
+                                <span>подписки</span>
+                            </div>
+                        </div>
+                        <div class="anonymous">
+                            <img src="assets/img/png/search-head.png" alt="" class="anonymous-img">
+                            <p class="anonymous-text">анонимный  просмотр</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-tab">
+                    <div class="tab-btns">
+                        <label for="stories" class="tab-btn" data-tab="stories">
+                            <input type="radio" id="stories" name="profile" checked>
+                            <span>Истории</span>
+                        </label>
+                        <label for="selected" class="tab-btn" data-tab="selected">
+                            <input type="radio" id="selected" name="profile">
+                            <span>Закреп</span>
+                        </label>
+                        <label for="publications" class="tab-btn" data-tab="publications">
+                            <input type="radio" id="publications" name="profile">
+                            <span>Публикации</span>
+                        </label>
+                        <label for="statistics" class="tab-btn" data-tab="statistics">
+                            <input type="radio" id="statistics" name="profile">
+                            <span>Статистика</span>
+                        </label>
+                    </div>
+                    <div class="tab-box">
+                        <div class="tab-item stories">
+                            <img src="assets/img/png/p3.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p4.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p5.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p1.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p2.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p6.png" alt="" class="tab-img">
+                        </div>
+                        <div class="tab-item selected">
+                            <img src="assets/img/png/p6.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p1.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p4.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p2.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p3.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p5.png" alt="" class="tab-img">
+                        </div>
+                        <div class="tab-item publications">
+                            <img src="assets/img/png/p1.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p3.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p4.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p5.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p6.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p2.png" alt="" class="tab-img">
+                        </div>
+                        <div class="tab-item statistics">
+                            <img src="assets/img/png/p2.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p4.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p1.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p5.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p3.png" alt="" class="tab-img">
+                            <img src="assets/img/png/p6.png" alt="" class="tab-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog">
+            <div class="container">
+                <h2 class="blog-title">Блог</h2>
+                <div class="blog-box">
+                    <div class="blog-list">
+                        <div class="blog-item">
+                            <div class="item-photo">
+                                <a href="./article.html"></a>
+                                <img src="assets/img/png/b1.png" alt="">
+                                <div class="hashtag interesting">интересное</div>
+                            </div>
+                            <div class="item-info">
+                                <a href="./article.html" class="info-link">Новая функция Instagram: «Подростковый аккаунт»</a>
+                                <div class="info-data">9 октября 2024</div>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <div class="item-photo">
+                                <a href="./article.html"></a>
+                                <img src="assets/img/png/b2.png" alt="">
+                                <div class="hashtag adviсe">советы</div>
+                            </div>
+                            <div class="item-info">
+                                <a href="./article.html" class="info-link">Как и зачем нужно продвигать личный бренд в Инстаграм</a>
+                                <div class="info-data">8 октября 2024</div>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <div class="item-photo">
+                                <a href="./article.html"></a>
+                                <img src="assets/img/png/b3.png" alt="">
+                                <div class="hashtag instructions">инструкции</div>
+                            </div>
+                            <div class="item-info">
+                                <a href="./article.html" class="info-link">Виды рекламы в Инстаграме и как их использовать</a>
+                                <div class="info-data">7 октября 2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="./blog.html" class="link-btn">
+                        <span>Перейти в блог</span>
+                        <img src="assets/img/svg/link.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="nav d-flex">
+                <li><a href="./stories.html">Истории</a></li>
+                    <li><a href="./blog.html">Блог</a></li>
+                <li><a href="#">Возможности</a></li>
+                <li><a href="#">О проекте</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <a href="./index.html" class="logo">
+                <img src="assets/img/svg/logo-big.svg" alt="">
+            </a>
+            <p class="footer-text text-center">StoryNavigation.com не связан с Instagram. Все права на контент принадлежат авторам контента. Скачивание доступно только в ознакомительных целях.</p>
+            <div class="footer-sub d-flex justify-between">
+                <span>© 2024 StoryNavigation</span>
+                <a href="#">Пользовательское соглашение</a>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="assets/js/plugin/jquery.js"></script>
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/profile.js"></script>
+</body>
+</html>
